@@ -30,13 +30,7 @@
   transform: translate(-50%, -50%) scale(0);
 }
 
-// .is-hidden {
-//   opacity: 0;
-//   visibility: hidden;
-//   pointer-events: none;
-// }
-
-.modal-close-button {
+.close-button {
   position: absolute;
   top: 8px;
   right: 8px;
@@ -48,19 +42,19 @@
   cursor: pointer;
 }
 
-.modal-close-icon {
+.close-button__icon {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
-.modal-close-button:hover,
-.modal-close-button:focus {
+.close-button:hover,
+.close-button:focus {
   fill: var(--accent-color);
 }
 
-.modal-title {
+.modal__title {
   margin-bottom: 12px;
 
   font-weight: 700;

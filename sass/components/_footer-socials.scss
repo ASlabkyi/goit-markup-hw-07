@@ -1,6 +1,4 @@
-.join-text {
-  margin-bottom: 20px;
-
+.join-container__text {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -9,33 +7,16 @@
   color: var(--color-white);
 }
 
-.join-list {
-  display: flex;
-  align-items: center;
-  column-gap: 10px;
+.join-container__text_margin {
+  margin-bottom: 20px;
 }
 
-.join-item {
-  width: 44px;
-  height: 44px;
-  border-radius: 50%;
+.icon-list__item_opacity {
   background-color: rgba(255, 255, 255, 0.1);
 }
 
-.join-link {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  width: 100%;
-  height: 100%;
+.icon-list__link_white {
   fill: var(--color-white);
-  border-radius: 50%;
 
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.join-link:hover,
-.join-link:focus {
-  background-color: var(--accent-color);
 }

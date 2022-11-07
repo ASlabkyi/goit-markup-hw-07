@@ -1,4 +1,4 @@
-.modal-label {
+.modal-form__label {
   display: block;
   margin-bottom: 4px;
 
@@ -9,17 +9,17 @@
   color: var(--primary-text-color);
 }
 
-.modal-thumb {
+.modal-form__thumb {
   position: relative;
 }
 
-.modal-thumb:focus-within .modal-input,
-.modal-thumb:focus-within {
+.modal-form__thumb:focus-within .modal-form__input,
+.modal-form__thumb:focus-within {
   fill: var(--accent-color);
   border-color: var(--accent-color);
 }
 
-.modal-input {
+.modal-form__input {
   width: 448px;
   height: 40px;
   margin-bottom: 10px;
@@ -31,7 +31,7 @@
   outline: none;
 }
 
-.modal-icon {
+.modal-form__icon {
   position: absolute;
   top: 11px;
   left: 12px;
@@ -39,7 +39,7 @@
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-textarea {
+.modal-form__textarea {
   width: 448px;
   height: 120px;
   padding: 12px 16px;
@@ -52,11 +52,11 @@
   outline: none;
 }
 
-.modal-textarea:focus-within {
+.modal-form__textarea:focus-within {
   border-color: var(--accent-color);
 }
 
-.modal textarea::placeholder {
+.modal-form__textarea::placeholder {
   font-size: 12px;
   line-height: 1.18;
   letter-spacing: 0.01em;
