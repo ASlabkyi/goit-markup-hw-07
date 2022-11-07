@@ -1,0 +1,30 @@
+.footer-navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  column-gap: 70px;
+}
+
+.address-list-item:not(:last-child) {
+  margin-bottom: 9px;
+}
+
+.address-goelocation {
+  color: var(--color-white);
+}
+
+.address-link {
+  color: var(--footer-contacts-color);
+}
+
+.footer .element {
+  text-decoration: none;
+  font-style: normal;
+
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer .element:hover,
+.footer .element:focus {
+  color: var(--accent-color);
+}
