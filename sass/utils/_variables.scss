@@ -1,28 +1,30 @@
-:root {
-  --primary-text-color: #757575;
-  --title-text-color: #212121;
-  --hero-color: #2f303a;
-  --color-white: #ffffff;
-  --color-black: #000000;
-  --hero-button-color: #188ce8;
-  --accent-color: #2196f3;
-  --team-section-color: #f5f4fa;
-  --footer-contacts-color: rgba(255, 255, 255, 0.6);
-  --link-icon-color: #afb1b8;
-  --photo-section-part-bgc: rgba(47, 48, 58, 0.8);
-  --works-photo-bgc: rgba(33, 150, 243, 0.9);
-  --works-border-color: #eeeeee;
-}
+// Colors
+
+$primary-text-color: #757575;
+$title-text-color: #212121;
+$hero-color: #2f303a;
+$color-white: #ffffff;
+$color-black: #000000;
+$hero-button-color: #188ce8;
+$accent-color: #2196f3;
+$team-section-color: #f5f4fa;
+$footer-contacts-color: rgba(255, 255, 255, 0.6);
+$link-icon-color: #afb1b8;
+$photo-section-part-bgc: rgba(47, 48, 58, 0.8);
+$works-photo-bgc: rgba(33, 150, 243, 0.9);
+$works-border-color: #eeeeee;
+
+// Font-style
 
 $font-text-pack: 'Roboto', sans-serif;
 $logo-text-pack: 'Raleway', sans-serif;
 
 body {
-  color: var(--primary-text-color);
+  color: $primary-text-color;
   font-family: $font-text-pack;
   font-size: 14px;
   font-weight: 400;
-  background-color: var(--color-white);
+  background-color: $color-white;
   line-height: 1.7;
 }
 
@@ -78,7 +80,7 @@ img {
 
 .current {
   position: relative;
-  color: var(--accent-color);
+  color: $accent-color;
 }
 
 .current::after {
@@ -87,7 +89,7 @@ img {
   left: 0;
   bottom: 0;
 
-  background-color: var(--accent-color);
+  background-color: $accent-color;
 
   min-width: 100%;
   height: 4px;
@@ -102,10 +104,10 @@ img {
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.06em;
-  color: var(--color-white);
+  color: $color-white;
   cursor: pointer;
 
-  background-color: var(--accent-color);
+  background-color: $accent-color;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border: none;
   border-radius: 4px;
@@ -118,7 +120,7 @@ img {
   font-weight: 700;
   line-height: 1.17;
 
-  color: var(--title-text-color);
+  color: $title-text-color;
 }
 
 .icon-list {
@@ -146,6 +148,6 @@ img {
 
 .icon-list__link:hover,
 .icon-list__link:focus {
-  background-color: var(--accent-color);
-  fill: var(--color-white);
+  background-color: $accent-color;
+  fill: $color-white;
 }

@@ -1,5 +1,5 @@
 .logo {
-  color: var(--accent-color);
+  color: $accent-color;
   font-family: $logo-text-pack;
   font-size: 26px;
   font-weight: 700;
@@ -9,11 +9,11 @@
 }
 
 .logo_header-black {
-  color: var(--color-black);
+  color: $color-black;
 }
 
 .logo_footer-white {
-  color: var(--color-white);
+  color: $color-white;
 }
 
 .logo_footer-margin-botom {

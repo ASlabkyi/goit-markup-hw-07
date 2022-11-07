@@ -4,7 +4,7 @@
   line-height: 1.14;
   text-transform: uppercase;
 
-  color: var(--color-white);
+  color: $color-white;
 }
 
 .join-container__text_margin {
@@ -16,7 +16,7 @@
 }
 
 .icon-list__link_white {
-  fill: var(--color-white);
+  fill: $color-white;
 
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }

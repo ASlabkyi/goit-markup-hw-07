@@ -13,7 +13,7 @@
   line-height: 1.14;
   text-transform: uppercase;
 
-  color: var(--color-white);
+  color: $color-white;
 }
 
 .subscribe-form__label_margin {
@@ -48,9 +48,9 @@
 }
 
 .button__footer:hover {
-  background-color: var(--hero-button-color);
+  background-color: $hero-button-color;
 }
 
 .button__footer-icon {
-  fill: var(--color-white);
+  fill: $color-white;
 }

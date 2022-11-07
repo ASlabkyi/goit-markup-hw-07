@@ -9,7 +9,7 @@
   column-gap: 10px;
   padding: 32px 0px;
 
-  color: var(--primary-text-color);
+  color: $primary-text-color;
   fill: currentcolor;
   font-weight: 500;
   line-height: 1.14;
@@ -21,5 +21,5 @@
 
 .header-contacts__link:hover,
 .header-contacts__link:focus {
-  color: var(--accent-color);
+  color: $accent-color;
 }
