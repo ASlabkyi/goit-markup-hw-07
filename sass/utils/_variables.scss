@@ -81,19 +81,19 @@ img {
 .current {
   position: relative;
   color: $accent-color;
-}
 
-.current::after {
-  content: '';
-  position: absolute;
-  left: 0;
-  bottom: 0;
+  &::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
 
-  background-color: $accent-color;
+    background-color: $accent-color;
 
-  min-width: 100%;
-  height: 4px;
-  border-radius: 4px;
+    min-width: 100%;
+    height: 4px;
+    border-radius: 4px;
+  }
 }
 
 .button {
@@ -144,10 +144,10 @@ img {
   width: 100%;
   height: 100%;
   border-radius: 50%;
-}
 
-.icon-list__link:hover,
-.icon-list__link:focus {
-  background-color: $accent-color;
-  fill: $color-white;
+  &:hover,
+  &:focus {
+    background-color: $accent-color;
+    fill: $color-white;
+  }
 }
