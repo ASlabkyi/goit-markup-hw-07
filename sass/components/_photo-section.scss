@@ -21,9 +21,7 @@
 }
 
 .photo-section__content_position {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  @include centeredFlex;
 
   position: absolute;
   left: 0;

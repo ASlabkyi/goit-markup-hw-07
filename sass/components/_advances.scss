@@ -21,9 +21,7 @@
 }
 
 .advances__icon_margin-flex {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  @include centeredFlex;
 
   margin-bottom: 30px;
 }
