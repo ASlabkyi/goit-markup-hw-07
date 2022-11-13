@@ -458,16 +458,12 @@ img {
 
 .icon-list__link_gray {
   fill: #afb1b8;
-  -webkit-transition-property: background-color;
-  transition-property: background-color;
+  -webkit-transition-property: background-color, fill;
+  transition-property: background-color, fill;
   -webkit-transition-duration: 250ms;
           transition-duration: 250ms;
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  -webkit-transition-property: fill;
-  transition-property: fill;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .clients {
@@ -503,16 +499,12 @@ img {
   fill: #afb1b8;
   border: 1px solid #afb1b8;
   border-radius: 4px;
-  -webkit-transition-property: fill;
-  transition-property: fill;
+  -webkit-transition-property: fill, border;
+  transition-property: fill, border;
   -webkit-transition-duration: 250ms;
           transition-duration: 250ms;
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  -webkit-transition-property: border;
-  transition-property: border;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .clients-list__link:hover, .clients-list__link:focus {
   fill: #2196f3;
@@ -714,22 +706,14 @@ img {
   line-height: 1.63;
   background-color: #f5f4fa;
   cursor: pointer;
-  -webkit-transition-property: color;
-  transition-property: color;
+  -webkit-transition-property: color, background-color, -webkit-box-shadow;
+  transition-property: color, background-color, -webkit-box-shadow;
+  transition-property: color, background-color, box-shadow;
+  transition-property: color, background-color, box-shadow, -webkit-box-shadow;
   -webkit-transition-duration: 250ms;
           transition-duration: 250ms;
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  -webkit-transition-property: background-color;
-  transition-property: background-color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  -webkit-transition-property: -webkit-box-shadow;
-  transition-property: -webkit-box-shadow;
-  transition-property: box-shadow;
-  transition-property: box-shadow, -webkit-box-shadow;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .portfolio-filter__button:hover, .portfolio-filter__button:focus {
   color: #ffffff;
@@ -798,7 +782,7 @@ img {
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.works-list__link:hover .works-list__descr {
+.works-list__link:hover .works-list__descr, .works-list__link:focus .works-list__descr {
   -webkit-transform: translateY(0);
           transform: translateY(0);
 }
@@ -839,16 +823,12 @@ img {
   width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.2);
-  -webkit-transition-property: opacity;
-  transition-property: opacity;
+  -webkit-transition-property: opacity, visibility;
+  transition-property: opacity, visibility;
   -webkit-transition-duration: 250ms;
           transition-duration: 250ms;
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  -webkit-transition-property: visibility;
-  transition-property: visibility;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal {
@@ -1017,16 +997,12 @@ img {
   border: 2px solid #212121;
   border-radius: 3px;
   margin-right: 7px;
-  -webkit-transition-property: background-color;
-  transition-property: background-color;
+  -webkit-transition-property: background-color, border;
+  transition-property: background-color, border;
   -webkit-transition-duration: 250ms;
           transition-duration: 250ms;
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  -webkit-transition-property: border;
-  transition-property: border;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .checkbox__input:checked + .checkbox__icon {
   border: none;

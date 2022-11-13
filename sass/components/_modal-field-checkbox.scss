@@ -15,8 +15,7 @@
     background-color: $accent-color;
   }
 
-  @include transition(background-color);
-  @include transition(border);
+  @include transition(background-color, border);
 }
 
 .checkbox__input {

@@ -28,9 +28,7 @@
       0px 2px 2px rgba(0, 0, 0, 0.12);
   }
 
-    @include transition(color);
-    @include transition(background-color);
-    @include transition(box-shadow);
+  @include transition(color, background-color, box-shadow);
 }
 
 .portfolio-filter__button-padding {

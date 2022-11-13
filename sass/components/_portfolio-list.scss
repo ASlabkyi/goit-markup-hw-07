@@ -35,7 +35,8 @@
   background-color: $works-photo-bgc;
   transform: translateY(100%);
 
-  .works-list__link:hover & {
+  .works-list__link:hover &,
+  .works-list__link:focus & {
     transform: translateY(0);
   }
 

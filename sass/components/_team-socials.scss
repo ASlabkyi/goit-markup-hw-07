@@ -1,6 +1,5 @@
 .icon-list__link_gray {
   fill: $link-icon-color;
 
-  @include transition(background-color);
-  @include transition(fill);
+  @include transition(background-color, fill);
 }

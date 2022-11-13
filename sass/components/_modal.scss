@@ -6,8 +6,7 @@
   height: 100%;
   background-color: rgba(0, 0, 0, 0.2);
 
-  @include transition(opacity);
-  @include transition(visibility);
+  @include transition(opacity, visibility);
 }
 
 .modal {
@@ -44,7 +43,7 @@
 }
 
 .close-button__icon {
-@include position_center;
+  @include position_center;
 
   &:hover,
   &:focus {

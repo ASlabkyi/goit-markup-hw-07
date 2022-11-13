@@ -16,7 +16,7 @@
   margin-right: auto;
 }
 
-@mixin transition($prop) {
+@mixin transition($prop...) {
   transition-property: $prop;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -27,7 +27,3 @@
   background-position: center;
   background-size: cover;
 }
-
-// @mixin colors {
-//   $color-black: #000000;
-// }
